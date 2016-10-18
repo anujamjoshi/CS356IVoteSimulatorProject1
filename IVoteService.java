@@ -2,6 +2,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class IVoteService {
+/*
+*	NOTE: The commented methods getUserInput() and getNumStudentsfromUserInput() and  getUserInputAnswer() 
+*	are commented because they are not requred for this project, but I've shown implementation so that if we were to use actual user input for everything 
+*	instead of randomly generated input, we would be able to.  
+*/
 	ArrayList<Student> studentList = new ArrayList<Student>();
 	Question question;
 
